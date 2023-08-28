@@ -1,0 +1,140 @@
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      overflow-x: hidden;
+    }
+
+    code {
+      font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+    }
+
+    /* navbar style  */
+    .navbar {
+      width: 100%;
+      background-color: rgb(77, 64, 70);
+      padding: 15px;
+      color: white;
+
+    }
+
+    .navbar button {
+      font-size: 1.4rem;
+      background-color: pink;
+    }
+
+
+    /* album List Component style  */
+    .list-Container {
+      margin: auto;
+      width: 70%;
+      padding: 50px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    /* album style  */
+    .list {
+      height: 200px;
+      width: 350px;
+      /* background-color:rgb(65, 120, 141); */
+      background: linear-gradient(rgb(190, 111, 141), rgb(104, 163, 163), rgb(88, 88, 155));
+      margin: 5px;
+      text-align: center;
+      padding: 20px;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .buttons button {
+      color: white;
+      border: 0.5px solid white;
+      padding: 7px;
+      font-size: 1.2rem;
+      font-family: bold;
+      font-weight: 700;
+      /* background:linear-gradient(rgb(190, 111, 141),rgb(104, 163, 163)); */
+      background-color: rgb(190, 111, 141);
+    }
+
+    /* add album style  */
+    .add-album {
+      padding: 20px;
+      background-color: rgb(44, 143, 44);
+      margin: 50px auto;
+      width: 20%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .add-album input {
+      font-size: 1.4rem;
+      border: 0;
+      outline: 0;
+    }
+
+    .add-album button {
+      padding: 10px;
+      width: 100px;
+      margin-top: 20px;
+      background-color: rgb(123, 240, 28);
+      border: 0;
+      font-size: 20px;
+      /* color: white; */
+      font-weight: 700;
+    }
+
+    .add-album p {
+      font-size: 20px;
+      color: white;
+    }
+
+    /* update album styles  */
+    .update-container {
+      padding: 20px;
+      background-color: rgb(44, 143, 44);
+      margin: 50px auto;
+      width: 20%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .update-container input {
+      font-size: 1.4rem;
+      border: 0;
+      outline: 0;
+    }
+
+    .update-container button {
+      padding: 10px;
+      width: 100px;
+      margin-top: 20px;
+      background-color: rgb(123, 240, 28);
+      border: 0;
+      font-size: 20px;
+      /* color: white; */
+      font-weight: 700;
+    }
+
+    .update-container p {
+      font-size: 20px;
+      color: white;
+    }
+
+    .center {
+      text-align: center;
+    }
