@@ -16,7 +16,7 @@ export default function AddAlbum(props) {
       <h1 className="center">Enter New Album Details</h1>
       <div className="add-album">
         <p>Enter UserId</p>
-        <input type="number" id="userid-inp"></input>
+        <input type="number" id="userid-inp" autoFocus></input>
         <p>Enter Title</p>
         <input type="text" id="Title-inp"></input>
         <Link to="/"> <button onClick={getData} type="submit">Save</button> </Link>

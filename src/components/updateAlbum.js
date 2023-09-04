@@ -23,7 +23,7 @@ export function UpdateAlbum(props) {
             <div className="update-container">
                 <div className="inp-container">
                     <p>Enter UserId</p>
-                    <input type="number" id="userId-inp"></input>
+                    <input type="number" id="userId-inp" autoFocus></input>
                 </div>
                 <div className="inp-container">
                     <p>Enter Title</p>
